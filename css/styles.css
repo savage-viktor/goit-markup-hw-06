@@ -631,6 +631,7 @@ footer .link:focus {
   position: absolute;
   top: 8px;
   right: 8px;
+
   border: 1px solid rgba(0, 0, 0, 0.1);
 
   width: 30px;
@@ -644,7 +645,8 @@ footer .link:focus {
   cursor: pointer;
 }
 
-.close:hover .icon-close {
+.close:hover .icon-close,
+.close:focus .icon-close {
   background-color: var(--color-white);
   fill: var(--color-accent);
   transition: background-color, color, box-shadow var(--effect-time) var(--effect-function);
